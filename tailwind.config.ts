@@ -10,9 +10,10 @@ const config: Config = {
     colors: {
       white: "rgba(var(--white)/<alpha-value>)",
       black: "rgba(var(--black)/<alpha-value>)",
-      primary: "var(--primary)",
-      secondary: "var(--secondary)",
-      tertiary: "var(--tertiary)",
+      primary: "rgba(var(--primary)/<alpha-value>)", //green
+      secondary: "rgba(var(--secondary)/<alpha-value>)", //blue
+      tertiary: "rgba(var(--tertiary)/<alpha-value>)",//pink-orange
+      accent: "rgba(var(--accent)/<alpha-value>)",//light-blue
     },
 
     // screens: {
