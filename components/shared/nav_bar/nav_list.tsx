@@ -6,7 +6,6 @@ import React, { useCallback } from 'react'
 export default function NavList() {
   const path = usePathname()
   const activePathClass=useCallback((route:string)=>{
-    console.log(path, route);
     if(path.startsWith(route)){
       return 'border-opacity-100  text-primary'
     }
