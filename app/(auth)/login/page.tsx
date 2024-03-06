@@ -15,7 +15,7 @@ const LogInPage = () => {
           noValidate
           className="flex flex-col items-center mb-[8px]"
         >
-          <h1 className="text-primary mb-[12px]">Log In</h1>
+          <h1 className="text-primary mb-[12px]">Sign In</h1>
           <Input
             label="Email"
             name="email"
@@ -32,7 +32,7 @@ const LogInPage = () => {
             className="bg-primary text-white font-bold hover:bg-secondary my-[20px] "
             type="submit"
           >
-            Sign Up
+            Sign In
           </Button>
 
           <Link href="/forgot_password" className="link">
@@ -40,7 +40,7 @@ const LogInPage = () => {
           </Link>
           <div className="flex justify-center items-center text-[16px] mt-[6px]">
             <p>Don&apos;t have an Account? &nbsp;</p>
-            <Link href="#" className="link">
+            <Link href="/sign_up" className="link">
               Sign Up
             </Link>
           </div>
